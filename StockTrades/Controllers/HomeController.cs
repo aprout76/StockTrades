@@ -27,7 +27,7 @@ namespace StockTrades.Controllers
             return View();
         }
 
-        public ActionResult Trade()
+        public ActionResult Trades()
         {
             ViewBag.Message = "Your Trades.";
             return View();
