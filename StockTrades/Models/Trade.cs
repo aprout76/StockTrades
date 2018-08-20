@@ -12,7 +12,7 @@ namespace StockTrades.Models
         public int Id { get; set; }
         public String Ticker { get; set; }
         public int Quantity { get; set; }
-        public DateTime BuyDate { get; set; }
+        public String BuyDate { get; set; }
         public Decimal BuyPrice { get; set; }
         public Decimal SellPrice { get; set; }
         public Decimal TargetPrice { get; set; }
@@ -20,7 +20,7 @@ namespace StockTrades.Models
         
 
 
-        public Trade (String ticker, int quantity, DateTime buyDate, Decimal buyPrice)//fix params
+        public Trade (String ticker, int quantity, String buyDate, Decimal buyPrice)//fix params
         {
             //Id = id;
             Ticker = ticker;

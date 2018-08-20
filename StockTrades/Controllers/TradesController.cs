@@ -17,7 +17,7 @@ namespace StockTrades.Controllers
         }
 
         #region Post Actions
-        public ActionResult create(String ticker, int quantity, DateTime date_buy, decimal price_buy)
+        public ActionResult create(String ticker, int quantity, String date_buy, decimal price_buy)
         {
             Trade newTrade = new Trade(ticker, quantity, date_buy, price_buy);
             TradeAccessor tradeDB = new TradeAccessor();

@@ -13,17 +13,20 @@ namespace StockTrades.DataSource
 
         public TradeAccessor(){
             ConnectionString = String.Format("SERVER={0}; PORT={1}; DATABASE={2}; UID={3}; PASSWORD={4}",
-                "127.0.0.1","3306","StockTrades", "root", "pass");     
+                "127.0.0.1","3306","stock_trades", "root", "pass");     
         }
 
         
         public Trade insert(Trade model)
         {
-            var query = String.Format(
-                "INSERT INTO {0} ( ticker, quantity,date_buy,buy_price) VALUES ({1}, {2}, {3}, {4});",
-                "", model.Ticker, model.Quantity, model.BuyDate, model.BuyPrice
+            /*var query = String.Format(
+                "INSERT INTO trades ( ticker, quantity,date_buy,buy_price) VALUES ({0}, {1}, {2}, {3});",
+                "", model.Ticker, (int)model.Quantity, (DateTime)model.BuyDate, (Decimal)model.BuyPrice
             );
+            */
 
+            var query = "INSERT INTO trades (ticker, quantity, date_buy, price_buy) VALUES ( '" + model.Ticker
+                + "', '" + model.Quantity + "', '" + model.BuyDate + "', '" + model.BuyPrice + "');";
             using (var connection = new MySqlConnection(ConnectionString))
             {
                 connection.Open();
