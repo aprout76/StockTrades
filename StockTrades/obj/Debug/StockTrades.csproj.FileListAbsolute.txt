@@ -89,3 +89,13 @@ C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\obj\Debug\StockTrades.
 C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\obj\Debug\StockTrades.csproj.CopyComplete
 C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\obj\Debug\StockTrades.dll
 C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\obj\Debug\StockTrades.pdb
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\EntityFramework.dll
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\EntityFramework.SqlServer.dll
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\Google.Protobuf.dll
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\MySql.Data.dll
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\MySql.Data.Entity.EF6.dll
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\EntityFramework.xml
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\EntityFramework.SqlServer.xml
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\Google.Protobuf.xml
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\MySql.Data.xml
+C:\Users\RandyRinger\source\repos\StockTrades\StockTrades\bin\MySql.Data.Entity.EF6.xml

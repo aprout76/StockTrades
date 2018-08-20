@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using StockTrades.Models;
 
 namespace StockTrades.Controllers
 {
@@ -32,5 +33,7 @@ namespace StockTrades.Controllers
             ViewBag.Message = "Your Trades.";
             return View();
         }
+
+
     }
 }
